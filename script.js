@@ -3,6 +3,6 @@
             let radius = prompt("Enter the radius of the circle:");
             // write you code here and display the result to the user
            let result= 3.14159265*radius*radius;
-	 alert(result.toFixed(2));
+	 alert(`The area of the circle with radius ${radius} is ${result.toFixed(2)}`);
 }
 calculateArea();
